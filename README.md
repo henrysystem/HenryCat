@@ -117,17 +117,38 @@ pip install -r requirements.txt
 4. **Configure environment variables**
 ```bash
 cp .env.example .env
-# Edit .env and add your Gemini API key
+# Edit .env with your configuration
 ```
+
+**Important Configuration Steps:**
+
+Open `.env` and configure:
+
+```env
+# Set the root path to scan (or leave empty to scan parent directory)
+SCAN_ROOT_PATH=/path/to/your/media
+
+# Set directories to scan (comma-separated)
+SCAN_DIRECTORIES=Courses,Books,Software
+
+# Add your Gemini API key for AI features
+GEMINI_API_KEY=your_api_key_here
+```
+
+**Configuration Examples:**
+- See [CONFIG_EXAMPLES.md](CONFIG_EXAMPLES.md) for detailed examples
+- Windows users: Use `SCAN_ROOT_PATH=C:/Users/YourName/Documents`
+- Linux/Mac users: Use `SCAN_ROOT_PATH=/home/username/media`
+- Portable: Leave `SCAN_ROOT_PATH` empty to scan parent directory
 
 5. **Run the application**
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 6. **Open your browser**
 ```
-http://localhost:8000
+http://localhost:8501
 ```
 
 ---
@@ -207,25 +228,71 @@ HenryCat/
 
 ## 🔧 Configuration
 
+HenryCat is **fully portable** and can be configured to scan any directory on your system.
+
 ### Environment Variables
 
-Create a `.env` file in the root directory:
+Create a `.env` file in the root directory (copy from `.env.example`):
 
 ```env
-# AI Configuration
-GEMINI_API_KEY=your_gemini_api_key_here
+# ====================================
+# Path Configuration (IMPORTANT!)
+# ====================================
 
-# Database
+# Root path to scan for files
+# Examples:
+#   Windows: C:/Users/YourName/Documents
+#   Linux: /home/username/media
+#   Mac: /Users/username/Documents
+# Leave empty to scan parent directory of HenryCat
+SCAN_ROOT_PATH=
+
+# Directories to scan (comma-separated, relative to SCAN_ROOT_PATH)
+SCAN_DIRECTORIES=Courses,Books,Software
+
+# Assets path for generated posters
+ASSETS_PATH=./assets
+
+# Database path
 DATABASE_PATH=./data/catalog.db
+
+# ====================================
+# AI Configuration
+# ====================================
+GEMINI_API_KEY=your_gemini_api_key_here
 
 # Vector Store
 FAISS_INDEX_PATH=./data/vectors.faiss
 
-# Server
+# ====================================
+# Server Configuration
+# ====================================
 HOST=0.0.0.0
-PORT=8000
+PORT=8501
 DEBUG=False
 ```
+
+### Configuration Examples
+
+**Example 1: Scan specific drive (Windows)**
+```env
+SCAN_ROOT_PATH=E:/
+SCAN_DIRECTORIES=CURSOS,Libros,INSTALADORES
+```
+
+**Example 2: Scan user documents**
+```env
+SCAN_ROOT_PATH=C:/Users/YourName/Documents
+SCAN_DIRECTORIES=Courses,Books,Downloads
+```
+
+**Example 3: Portable mode (scan parent folder)**
+```env
+SCAN_ROOT_PATH=
+SCAN_DIRECTORIES=Media,Documents,Projects
+```
+
+For more examples, see [CONFIG_EXAMPLES.md](CONFIG_EXAMPLES.md)
 
 ---
 

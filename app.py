@@ -5,6 +5,10 @@ from database import CatalogDatabase
 from pathlib import Path
 from PIL import Image
 import subprocess
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Configuración de página estilo Netflix
 st.set_page_config(page_title="Gemini Catalog", layout="wide")
@@ -27,10 +31,18 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Inicializar Base de Datos y Scanner
-DB_PATH = "E:/CatalogManager/data/catalog.db"
+# Inicializar Base de Datos y Scanner con rutas configurables
+# Get configuration from environment or use defaults
+PROJECT_DIR = Path(__file__).parent
+DB_PATH = os.getenv("DATABASE_PATH", str(PROJECT_DIR / "data" / "catalog.db"))
+SCAN_ROOT = os.getenv("SCAN_ROOT_PATH", str(PROJECT_DIR.parent))
+ASSETS_PATH = os.getenv("ASSETS_PATH", str(PROJECT_DIR / "assets"))
+
+# Ensure data directory exists
+Path(DB_PATH).parent.mkdir(parents=True, exist_ok=True)
+
 db = CatalogDatabase(DB_PATH)
-scanner = FileScanner("E:/")
+scanner = FileScanner(root_path=SCAN_ROOT, assets_path=ASSETS_PATH)
 
 # Gestión de Estado
 if 'view' not in st.session_state: st.session_state.view = 'gallery'
@@ -131,7 +143,11 @@ with st.sidebar:
     
     if st.button("🔄 Sincronizar"):
         with st.spinner("Escaneando..."):
-            for f in ["CURSOS", "Libros", "INSTALADORES"]:
+            # Get scan directories from environment or use defaults
+            scan_dirs_str = os.getenv("SCAN_DIRECTORIES", "CURSOS,Libros,INSTALADORES")
+            scan_dirs = [d.strip() for d in scan_dirs_str.split(",") if d.strip()]
+            
+            for f in scan_dirs:
                 db.add_items(scanner.scan_directory(f))
         st.success("¡Catálogo al día!")
     

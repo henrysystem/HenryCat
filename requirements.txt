@@ -2,11 +2,13 @@
 fastapi>=0.109.0
 uvicorn[standard]>=0.27.0
 python-multipart>=0.0.6
+streamlit>=1.30.0
 
 # AI & Machine Learning
 google-generativeai>=0.3.0
 sentence-transformers>=2.3.0
 faiss-cpu>=1.7.4
+duckduckgo-search>=4.0.0
 
 # PDF Processing
 PyMuPDF>=1.23.0

@@ -27,10 +27,27 @@ CATEGORIES = {
 }
 
 class FileScanner:
-    def __init__(self, root_path):
-        self.root_path = Path(root_path)
-        self.assets_path = self.root_path / "CatalogManager" / "assets"
-        self.assets_path.mkdir(exist_ok=True)
+    def __init__(self, root_path=None, assets_path=None):
+        """
+        Initialize FileScanner with configurable paths.
+        
+        Args:
+            root_path: Root directory to scan. If None, uses current directory.
+            assets_path: Directory to store generated posters. If None, uses ./assets
+        """
+        if root_path is None:
+            # Use current working directory if not specified
+            self.root_path = Path.cwd()
+        else:
+            self.root_path = Path(root_path)
+        
+        if assets_path is None:
+            # Use assets folder relative to the scanner location
+            self.assets_path = Path(__file__).parent / "assets"
+        else:
+            self.assets_path = Path(assets_path)
+        
+        self.assets_path.mkdir(exist_ok=True, parents=True)
         
     def clean_name(self, name):
         name = re.sub(r'\.zip|\.rar|\.exe|\.pdf|\.mp4', '', name, flags=re.IGNORECASE)
