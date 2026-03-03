@@ -1,0 +1,932 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>AI Skills for Education | Formaci&#243;n y certificaci&#243;n oficial en IA</title>
+
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="Activa tus skills en inteligencia artificial con PUE Academy y su plataforma de formaci&#243;n y certificaci&#243;n oficial en IA para la comunidad educativa">
+    <meta name="author" content="PUE Academy">
+    <link rel="publisher" href="https://www.pue.es/pue-academy">
+
+    
+    <meta property="og:title" content="AI Skills for Education | Formaci&#243;n y certificaci&#243;n oficial en IA">
+    <meta property="og:image" content="https://aiskillsforeducation.pue.es/assets/images/main/thumbnails/og-aiskills-main-home.png">
+    <meta property="og:site_name" content="PUE">
+    <meta property="og:description" content="Activa tus skills en inteligencia artificial con PUE Academy y su plataforma de formaci&#243;n y certificaci&#243;n oficial en IA para la comunidad educativa">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aiskillsforeducation.pue.es">
+
+    <link href="/assets/images/main/favicons/favicon.png" rel="shortcut icon">
+    <link href="/assets/images/main/favicons/favicon.png" rel="icon" type="image/x-icon">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" id="css-main" href="/assets/css/core/dashmix.min.css">
+    <link rel="stylesheet" id="css-theme" href="/assets/css/theme/main/aiskills-1.5.0.css">
+    <link rel="stylesheet" href="/assets/js/plugins/jwaitme/theme/waitme.min.css">
+    <link rel="stylesheet" href="/assets/js/plugins/mmenujs/theme/mmenu.css">
+    <link rel="stylesheet" href="/assets/js/plugins/mmenujs/theme/mburger.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"/>
+
+    
+    
+    <link rel="stylesheet" href="/assets/js/plugins/select2/css/select2.min.css" />
+    <link rel="stylesheet" href="/assets/js/plugins/ion-rangeslider/css/ion.rangeSlider.min.css" />
+    <link rel="stylesheet" href="/assets/js/plugins/slick-carousel/slick.css">
+    <link rel="stylesheet" href="/assets/js/plugins/slick-carousel/slick-theme.css">
+
+
+    
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5CBN4KB');</script>
+
+</head>
+
+    <body>
+        
+        
+
+
+<noscript>
+    <div id="header-browser" style="top:0px; width: 100%; height: 90px; background-color: #000; z-index: 1045; position: fixed;">
+        <div style="width:50%; margin:auto">
+            <p style="text-align:center; padding-top:15px; color:white; font-size: 18px">
+                Para utilizar las funcionalidades completas de este sitio es necesario tener JavaScript habilitado. <br />Aquí están las <a href="https://www.enable-javascript.com/es/" target="_blank"> instrucciones para habilitar JavaScript en tu navegador web</a>.
+            </p>
+        </div>
+    </div>
+    <div id="browser" style="height: 100%; width: 100%; position: fixed;z-index: 1044;top: 0;left: 0;background-color: rgb(0,0,0);background-color: grey;opacity: 0.5;">
+
+    </div>
+</noscript>
+
+        
+        <div id="page-container" class="sidebar-r page-header-fixed page-header-glass main-content-boxed side-trans-enabled">
+
+            
+            <header id="page-header">
+
+                
+                <div id="sc-aiskills-4edu-desktop-menu" class="d-none d-lg-block">
+                    <div class="content">
+                        <div class="row">
+                            
+                            <div class="col-2">
+                                    <a class="d-inline-block cursor-pointer l-aiskills-4edu-clickable pt-2" data-navigation="hero"><img src="/assets/images/main/logos/host/lg-pue-academy.png" class="img-fluid float-left" alt="Logo" title="PUE Academy" /></a>
+                            </div>
+                            
+                            <div class="col-10">
+                                
+                                <ul class="nav nav-pills nav-fill float-right">
+                                        <li class="nav-item align-self-center">
+                                            <a class="nav-main-link menu-link cursor-pointer l-aiskills-4edu-clickable" data-navigation="catalog" title="Cursos">
+                                                <span class="nav-main-link-name">Cursos</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item align-self-center">
+                                            <a class="nav-main-link menu-link cursor-pointer l-aiskills-4edu-clickable" data-navigation="practice-tests" title="Practice Tests">
+                                                <span class="nav-main-link-name">Practice Tests</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item align-self-center">
+                                            <a class="nav-main-link menu-link cursor-pointer l-aiskills-4edu-clickable" data-navigation="badges" title="Certificaciones">
+                                                <span class="nav-main-link-name">Certificaciones</span>
+                                            </a>
+                                        </li>
+
+                                    
+                                    <li class="nav-item align-self-center">
+                                        <a href="https://itskills.pue.es/dashboard?source=805d21a1-f95b-430b-81af-c9faf701ea53" target="_blank" class="button">Acceder</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="sc-aiskills-4edu-mobile-menu" class="d-block d-lg-none pt-2">
+                    <div class="content py-2 pr-0">
+                        <div class="row">
+                            
+                            <div class="col-6">
+                                    <a class="cursor-pointer pt-0 l-aiskills-4edu-clickable" data-navigation="hero"><img src="/assets/images/main/logos/host/lg-pue-academy-mobile.png" class="mt-2 img-fluid float-left" alt="Logo" title="PUE Academy" /></a>
+                            </div>
+                            
+                            <div class="col-2 offset-3 text-right pr-0">
+                                <a class="mburger mburger--collapse" href="#nav-aiskills-4edu-mobile-menu" id="burger">
+                                    <b></b>
+                                    <b></b>
+                                    <b></b>
+                                </a>
+                                <nav id="nav-aiskills-4edu-mobile-menu">
+<ul class="mt-2">
+    <li>
+        <a class="pb-2 font-size-sm" href="/es"><i class="fa fa-home pr-2"></i> Inicio</a>
+    </li>
+    <li>
+        <a class="pb-2 font-size-sm" href="/es?section=catalog"><i class="fa fa-network-wired pr-2"></i> Cursos</a>
+    </li>
+    <li>
+        <a class="pb-2 font-size-sm" href="/es?section=practice-tests"><i class="fa fa-pen-nib pr-2"></i> Practice Tests</a>
+    </li>
+    <li>
+        <a class="pb-2 font-size-sm" href="/es?section=badges"><i class="fa fa-laptop pr-2"></i> Certificaciones</a>
+    </li>
+    <li>
+        <a class="pb-2 font-size-sm" href="https://itskills.pue.es/dashboard?source=805d21a1-f95b-430b-81af-c9faf701ea53" target="_blank"><i class="fa fa-user pr-2"></i> Acceder</a>
+    </li>
+</ul>
+</nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </header>
+
+            
+            <main id="main-container">
+
+                
+                
+
+    
+    <section id="sc-aiskills-4edu-home-hero" data-section="hero">
+        <div class="content">
+            <div class="row mb-5">
+                <div class="col-12 animated invisible delay-1" data-animation="zoomIn">
+                    <h1 class="text-center mb-4">AI Skills for Education</h1>
+                    <h3 class="text-center">Plataforma de acceso a formación y certificación oficial en IA<br class="d-none d-md-block" /> para la comunidad educativa</h3>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 col-lg-6 offset-lg-3 px-lg-6 animated invisible delay-2" data-animation="zoomIn">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="badge">
+                            <figure>
+                                <img src="/assets/images/main/icons/badges/ic-badge-computer.png" class="d-block img-fluix mx-auto mb-3" />
+                                <figcaption>
+                                    <p>100 % online</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="badge">
+                            <figure>
+                                <img src="/assets/images/main/icons/badges/ic-badge-tcap.png" class="d-block img-fluix mx-auto mb-3" />
+                                <figcaption>
+                                    <p>Formación oficial</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="badge">
+                            <figure>
+                                <img src="/assets/images/main/icons/badges/ic-badge-pass.png" class="d-block img-fluix mx-auto mb-3" />
+                                <figcaption>
+                                    <p>Certificación Online<br /> Proctored</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center align-items-center animated invisible delay-2" data-animation="zoomIn">
+                            <a href="https://itskills.pue.es/dashboard?source=805d21a1-f95b-430b-81af-c9faf701ea53" target="_blank" class="button">Acceder</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="sc-aiskills-4edu-home-claim" data-section="claim">
+        <div class="content animated invisible delay-1" data-animation="fadeInUp">
+            <div class="row">
+                <div class="col-12">
+                        <h2 class="text-center">Acceso a formación y certificación<br class="d-none d-md-block" /> oficial en IA y Data Science</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="sc-aiskills-4edu-home-info" data-section="info">
+        <div class="content">
+            <div class="row">
+                <div class="col-12 col-lg-6 animated delay-1 invisible" data-animation="fadeInUp">
+                    <img src="/assets/images/main/sections/sc-block-info.png" class="d-block img-fluid mx-auto pr-0 pr-md-4 mb-4 mb-md-0"/>
+                </div>
+                <div class="col-12 col-lg-6 pt-4 animated delay-2 invisible" data-animation="fadeInUp">
+                    <h6>Acerca de AI Skills for Education</h6>
+                    <h4 class="mb-4">Activa tus skills en inteligencia<br class="d-none d-md-block" /> artificial para liderar el cambio</h4>
+                    <p class="mb-3">AI Skills for Education es una iniciativa diseñada por PUE Academy con el objetivo de facilitar el acceso a formación y certificación oficial en IA y Data Science, dos de las áreas tecnológicas que están transformando la manera de aprender, crear y liderar.</p>
+                    <ul class="mb-4">
+                        <li>Accede a una amplia variedad de cursos oficiales 100 % online.</li>
+                        <li>Entrena con simulaciones reales del examen (Practice Tests).</li>
+                        <li>Obtén insignias digitales y certificaciones oficiales que validan tus conocimientos a nivel mundial.</li>
+                    </ul>
+                    <a href="https://itskills.pue.es/dashboard?source=805d21a1-f95b-430b-81af-c9faf701ea53" target="_blank" class="button">Empezar ahora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+        <section id="sc-aiskills-4edu-home-availability" data-section="availability">
+            <div class="content animated invisible delay-1" data-animation="fadeInUp">
+                <div class="row">
+                    <div class="col-12 mb-4">
+                        <h4 class="text-center">¿Cómo acceder?</h4>
+                    </div>
+                    <div class="col-12 mx-lg-2 px-lg-10">
+                        <p class="text-center mb-3">AI Skills for Education está dirigido a centros e instituciones educativas que quieran facilitar el acceso a formación y certificación oficial en inteligencia artificial a sus estudiantes, de manera flexible y 100 % online.</p>
+                        <p class="text-center mb-3">El acceso a la plataforma está disponible a través de la figura <strong>PUE Academy Center</strong>, pudiendo convertirla en una extensión de tu marca a través de la personalización con el logo e identidad visual de tu institución.</p>
+                        <p class="text-center">Una solución estratégica que permite impulsar las skills y captación del alumnado, así como promover la diferenciación y reconocimiento de tu centro.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <section id="sc-aiskills-4edu-home-partners" data-section="partners">
+        <div class="content animated invisible delay-1" data-animation="fadeInUp">
+            <div class="row">
+                <div class="col-12 pb-4">
+                    <h4 class="text-center">Con el reconocimiento de los referentes en IA</h4>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-6 col-md-4 col-lg-2">
+                    <img src="/assets/images/main/logos/partners/lg-partner-microsoft-ai.png" class="img-fluid mx-auto d-block" alt="Microsoft AI" title="Microsoft AI" />
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <img src="/assets/images/main/logos/partners/lg-partner-cisco-netacad.png" class="img-fluid mx-auto d-block" alt="Cisco Networking Academy" title="Cisco Networking Academy" />
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <img src="/assets/images/main/logos/partners/lg-partner-pearson.png" class="img-fluid mx-auto d-block" alt="Pearson" title="Pearson" />
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <img src="/assets/images/main/logos/partners/lg-partner-certiport.png" class="img-fluid mx-auto d-block" alt="Cetiport" title="Cetiport" />
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <img src="/assets/images/main/logos/partners/lg-partner-ccs-genai.png" class="img-fluid mx-auto d-block" alt="Critical Career Skills" title="Critical Career Skills" />
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <img src="/assets/images/main/logos/partners/lg-partner-its.png" class="img-fluid mx-auto d-block" alt="Information Technology Specialist" title="Information Technology Specialist" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="sc-aiskills-4edu-home-skills" data-section="skills">
+        <div class="content animated invisible delay-1" data-animation="fadeInUp">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h6 class="text-center">Áreas de Especialización</h6>
+                    <h4 class="text-center">Adquiere habilidades clave por<br class="d-none d-md-block" /> áreas de especialización</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2">
+                        <div class="pill text-center cursor-pointer l-aiskills-4edu-clickable" data-navigation="catalog"><img src="/assets/images/main/icons/pills/ic-pill-ia.png" class="d-inline-block pr-1" /> Inteligencia Artificial</div>
+                        <div class="pill text-center cursor-pointer l-aiskills-4edu-clickable" data-navigation="catalog"><img src="/assets/images/main/icons/pills/ic-pill-data.png" class="d-inline-block pr-1" /> Data Science </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="sc-aiskills-4edu-home-badges" data-section="badges">
+        <div class="content">
+            <div class="row mb-5">
+                <div class="col-12 animated invisible delay-1" data-animation="fadeInUp">
+                    <h6 class="text-center">Insignias y certificaciones</h6>
+                    <h4 class="text-center">Demuestra tus habilidades con credenciales<br class="d-none d-md-block" /> reconocidas globalmente</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 animated invisible delay-2" data-animation="fadeInUp">
+                    <div class="pill px-4 py-5 px-lg-6">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <div id="sc-aiskills-4edu-slider-badges" class="js-slider px-2 px-md-4 mb-4 mb-md-0">
+                                    <div><img src="/assets/images/main/badges/bg-badge-cisco-ccst.png" class="mx-auto d-block img-fluid"></div>
+                                    <div><img src="/assets/images/main/badges/bg-badge-ccs-genai.png" class="mx-auto d-block img-fluid"></div>
+                                    <div><img src="/assets/images/main/badges/bg-badge-its-inf307.png" class="mx-auto d-block img-fluid"></div>
+                                    <div><img src="/assets/images/main/badges/bg-badge-ms-ai900.png" class="mx-auto d-block img-fluid"></div>
+                                    <div><img src="/assets/images/main/badges/bg-badge-its-inf201.png" class="mx-auto d-block img-fluid"></div>
+                                    <div><img src="/assets/images/main/badges/bg-badge-its-inf202.png" class="mx-auto d-block img-fluid"></div>
+                                    <div><img src="/assets/images/main/badges/bg-badge-cisco-ai.png" class="mx-auto d-block img-fluid"></div>
+                                    <div><img src="/assets/images/main/badges/bg-badge-cisco-datasc.png" class="mx-auto d-block img-fluid"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <h5 class="mb-4">Certificaciones e insignias oficiales</h5>
+                                <p class="mb-3">Valida los conocimientos y las habilidades en IA con certificaciones oficiales e insignias digitales, emitidas por las principales multinacionales IT:</p>
+                                <ul>
+                                    <li>Validan el aprovechamiento de la formación.</li>
+                                    <li>Pueden compartirse fácilmente en LinkedIn o CVs.</li>
+                                    <li>Aportan máxima credibilidad.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="sc-aiskills-4edu-home-catalog" data-section="catalog">
+        <div class="content">
+            <div class="row mb-5">
+                <div class="col-12 animated invisible delay-1" data-animation="fadeInUp">
+                    <h6 class="text-center">Elige tu camino</h6>
+                    <h4 class="text-center">Domina las tecnologías más demandas</h4>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="px-0">
+                        <button id="dropdown-providers" type="button" class="btn mb-2" data-toggle="dropdown">
+                            <span class="dropdown-value">Programa</span> <span class="fa fa-caret-down"></span>
+                        </button>
+                        <div id="s-filter-providers" class="dropdown-menu">
+                            <ul class="pl-0 mb-0">
+                                <li class="dropdown-item" data-provider="">Selecciona programa</li>
+                                <li class="dropdown-item" data-provider="cisco">Cisco Networking Academy</li>
+                                <li class="dropdown-item" data-provider="ccs-genai">Critical Career Skills - Generative AI</li>
+                                <li class="dropdown-item" data-provider="its">IT Specialist</li>
+                                <li class="dropdown-item" data-provider="microsoft">Microsoft</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="px-0">
+                        <button id="dropdown-areas" type="button" class="btn mb-2" data-toggle="dropdown">
+                            <span class="dropdown-value">Especialidad</span> <span class="fa fa-caret-down"></span>
+                        </button>
+                        <div id="s-filter-areas" class="dropdown-menu">
+                            <ul class="pl-0 mb-0">
+                                <li class="dropdown-item" data-area="">Selecciona especialidad</li>
+                                <li class="dropdown-item" data-area="ai">Inteligencia Artificial</li>
+                                <li class="dropdown-item" data-area="datasc">Data Science</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="px-0">
+                        <button id="dropdown-courses" type="button" class="btn mb-2" data-toggle="dropdown">
+                            <span class="dropdown-value">Curso</span> <span class="fa fa-caret-down"></span>
+                        </button>
+                        <div id="s-filter-courses" class="dropdown-menu">
+                            <ul class="pl-0 mb-0">
+                                <li class="dropdown-item" data-course="">Selecciona curso</li>
+                                <li class="dropdown-item" data-course="cisco-datasc" data-provider="cisco" data-area="datasc">Introducción a la Ciencia de Datos</li>
+                                <li class="dropdown-item" data-course="cisco-ai" data-provider="cisco" data-area="ai">Introducción a la IA moderna</li>
+                                <li class="dropdown-item" data-course="ccs-genai" data-provider="ccs-genai" data-area="ai">Fundamentos de la Inteligencia Artificial Generativa</li>
+                                <li class="dropdown-item" data-course="its-inf201" data-provider="its" data-area="datasc">IT Specialist - INF-201: Bases de datos</li>
+                                <li class="dropdown-item" data-course="its-inf202" data-provider="its" data-area="datasc">IT Specialist - INF-202: Análisis de datos</li>
+                                <li class="dropdown-item" data-course="its-inf307" data-provider="its" data-area="ai">IT Specialist - INF-307: Inteligencia Artificial</li>
+                                <li class="dropdown-item" data-course="ms-ai900" data-provider="microsoft" data-area="ai">AI-900: Microsoft Azure AI Fundamentals</li>
+                                <li class="dropdown-item" data-course="ms-ab900" data-provider="microsoft" data-area="ai">AB-900: Fundamentos de la administración de Microsoft 365 Copilot</li>
+                                <li class="dropdown-item" data-course="ms-ab730" data-provider="microsoft" data-area="ai">AB-730: Mejora tus procesos y flujos de trabajo con IA Generativa y Microsoft Copilot</li>
+                                <li class="dropdown-item" data-course="ms-ab731" data-provider="microsoft" data-area="ai">AB-731: Lidera la implementación de IA generativa en tu organización</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="px-0">
+                        <button id="dropdown-exams" type="button" class="btn mb-2" data-toggle="dropdown">
+                            <span class="dropdown-value">Certificación</span> <span class="fa fa-caret-down"></span>
+                        </button>
+                        <div id="s-filter-exams" class="dropdown-menu">
+                            <ul class="pl-0 mb-0">
+                                <li class="dropdown-item" data-exam="">Selecciona certificación</li>
+                                <li class="dropdown-item" data-exam="its-inf201" data-provider="its" data-area="datasc">INF-201: Bases de datos</li>
+                                <li class="dropdown-item" data-exam="its-inf202" data-provider="its" data-area="datasc">INF-202: Análisis de datos</li>
+                                <li class="dropdown-item" data-exam="its-inf307" data-provider="its" data-area="ai">INF-307: Inteligencia Artificial</li>
+                                <li class="dropdown-item" data-exam="ccs-genai" data-provider="ccs-genai" data-area="ai">Fundamentos de la Inteligencia Artificial Generativa</li>
+                                <li class="dropdown-item" data-exam="ms-ai900" data-provider="microsoft" data-area="ai">AI-900: Microsoft Azure AI Fundamentals</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="pill">
+                        <div id="sc-aiskills-4edu-catalog-empty" class="p-5">
+                            <figure class="text-center">
+                                <img src="/assets/images/main/icons/badges/ic-badge-search.png" class="d-block img-fluid mx-auto mb-3" />
+                                <figcaption>
+                                    <h5 class="mb-3">Elige tu camino</h5>
+                                    <p>Filtra por los campos disponibles y construye tu itinerario de aprendizaje.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div id="sc-aiskills-4edu-catalog-results" class="px-4 pt-4 d-none">
+                            <div class="row">
+
+                                <article class="col-12 col-lg-4" data-type="course" data-provider="cisco" data-area="ai" data-course="cisco-ai" data-exam="">
+    <div class="product">
+        <div class="product-header">
+            <img src="/assets/images/main/products/covers/bg-course-cisco-ai.png" class="d-block img-fluid mx-auto" />
+        </div>
+        <div class="product-logo">
+            <img src="/assets/images/main/products/logos/lg-product-cisco.png" />
+        </div>
+        <div class="product-contents">
+            <h5 class="mb-3">Introducción a la IA moderna</h5>
+            <p>Las aplicaciones con IA están transformando cómo trabajamos y aprendemos, ayudando a simplificar tareas cotidianas. Aprende habilidades prácticas de IA para fomentar la innovación y mejorar tu preparación en este campo.</p>
+        </div>
+        <div class="product-footer text-center">
+            <a href="/es/cursos/introduccion-ia-moderna" target="_self" class="d-block waitmeAll">Más información</a>
+        </div>
+    </div>
+</article>
+                                <article class="col-12 col-lg-4" data-type="course" data-provider="cisco" data-area="datasc" data-course="cisco-datasc" data-exam="">
+    <div class="product">
+        <div class="product-header">
+            <img src="/assets/images/main/products/covers/bg-course-cisco-datasc.png" class="d-block img-fluid mx-auto" />
+        </div>
+        <div class="product-logo">
+            <img src="/assets/images/main/products/logos/lg-product-cisco.png" />
+        </div>
+        <div class="product-contents">
+            <h5 class="mb-3">Introducción a la Ciencia de Datos</h5>
+            <p>Aprende los conceptos básicos de la ciencia de datos, el análisis de datos y la ingeniería de datos para comprender cómo el aprendizaje automático está dando forma al futuro de los negocios, la sanidad, la educación y mucho más.</p>
+        </div>
+        <div class="product-footer text-center">
+            <a href="/es/cursos/introduccion-ciencia-datos" target="_self" class="d-block waitmeAll">Más información</a>
+        </div>
+    </div>
+</article>
+                                <article class="col-12 col-lg-4" data-type="course" data-provider="its" data-area="ai" data-course="its-inf307" data-exam="its-inf307">
+    <div class="product">
+        <div class="product-header">
+            <img src="/assets/images/main/products/covers/bg-course-its-inf037.png" class="d-block img-fluid mx-auto" />
+        </div>
+        <div class="product-logo">
+            <img src="/assets/images/main/products/logos/lg-product-its.png" />
+        </div>
+        <div class="product-contents">
+            <h5 class="mb-3">IT Specialist - INF-307: Inteligencia Artificial</h5>
+            <p>Descubre el potencial de la inteligencia artificial con este curso oficial. Aprende IA desde cero, domina el aprendizaje automático y prepárate para certificarte como IT Specialist.</p>
+        </div>
+        <div class="product-footer text-center">
+            <a href="/es/cursos/it-specialist-inf307-inteligencia-artificial" target="_self" class="d-block waitmeAll">Más información</a>
+        </div>
+    </div>
+</article>
+                                <article class="col-12 col-lg-4" data-type="course" data-provider="its" data-area="datasc" data-course="its-inf202" data-exam="its-inf202">
+    <div class="product">
+        <div class="product-header">
+            <img src="/assets/images/main/products/covers/bg-course-its-inf202.png" class="d-block img-fluid mx-auto" />
+        </div>
+        <div class="product-logo">
+            <img src="/assets/images/main/products/logos/lg-product-its.png" />
+        </div>
+        <div class="product-contents">
+            <h5 class="mb-3">IT Specialist - INF-202: Análisis de datos</h5>
+            <p>Perfecciona tus habilidades en el manipulado, análisis y comunicación de datos con este curso, aprendiendo a organizar, interpretar y presentar información de manera clara y efectiva para tomar decisiones más acertadas.</p>
+        </div>
+        <div class="product-footer text-center">
+            <a href="/es/cursos/it-specialist-inf202-analisis-datos" target="_self" class="d-block waitmeAll">Más información</a>
+        </div>
+    </div>
+</article>
+                                <article class="col-12 col-lg-4" data-type="course" data-provider="its" data-area="datasc" data-course="its-inf201" data-exam="its-inf201">
+    <div class="product">
+        <div class="product-header">
+            <img src="/assets/images/main/products/covers/bg-course-its-inf201.png" class="d-block img-fluid mx-auto" />
+        </div>
+        <div class="product-logo">
+            <img src="/assets/images/main/products/logos/lg-product-its.png" />
+        </div>
+        <div class="product-contents">
+            <h5 class="mb-3">IT Specialist - INF-201: Bases de datos</h5>
+            <p>Aprende a diseñar, implementar y gestionar bases de datos relacionales. Este curso oficial te proporciona los conocimientos esenciales para comprender la arquitectura de bases de datos, lenguajes SQL y técnicas de administración de datos.</p>
+        </div>
+        <div class="product-footer text-center">
+            <a href="/es/cursos/it-specialist-inf201-bases-datos" target="_self" class="d-block waitmeAll">Más información</a>
+        </div>
+    </div>
+</article>
+                                <article class="col-12 col-lg-4" data-type="course" data-provider="ccs-genai" data-area="ai" data-course="ccs-genai" data-exam="ccs-genai">
+    <div class="product">
+        <div class="product-header">
+            <img src="/assets/images/main/products/covers/bg-course-ccs-genai.png" class="d-block img-fluid mx-auto" />
+        </div>
+        <div class="product-logo">
+            <img src="/assets/images/main/products/logos/lg-product-ccs-genai.png" />
+        </div>
+        <div class="product-contents">
+            <h5 class="mb-3">Fundamentos de la Inteligencia Artificial Generativa</h5>
+            <p>Descubre el potencial de la inteligencia artificial con este curso oficial. Aprende IA desde cero, domina el aprendizaje automático y prepárate para certificarte como IT Specialist.</p>
+        </div>
+        <div class="product-footer text-center">
+            <a href="/es/cursos/fundamentos-inteligencia-artificial-generativa" target="_self" class="d-block waitmeAll">Más información</a>
+        </div>
+    </div>
+</article>
+                                <article class="col-12 col-lg-4" data-type="course" data-provider="microsoft" data-area="ai" data-course="ms-ai900" data-exam="ms-ai900">
+    <div class="product">
+        <div class="product-header">
+            <img src="/assets/images/main/products/covers/bg-course-ms-ai900.png" class="d-block img-fluid mx-auto" />
+        </div>
+        <div class="product-logo">
+            <img src="/assets/images/main/products/logos/lg-product-microsoft-ai.png" />
+        </div>
+        <div class="product-contents">
+            <h5 class="mb-3">AI-900: Microsoft Azure AI Fundamentals</h5>
+            <p>Con este curso obtendrás la base necesaria para iniciar o avanzar en tu carrera en esta tecnología en auge. Adquirirás conocimiento sobre las cargas de trabajo comunes de IA, aprendizaje automático y los servicios de Azure necesarios para ejecutarlas.</p>
+        </div>
+        <div class="product-footer text-center">
+            <a href="/es/cursos/ai900-microsoft-azure-ai-fundamentals" target="_self" class="d-block waitmeAll">Más información</a>
+        </div>
+    </div>
+</article>
+                                <article class="col-12 col-lg-4" data-type="course" data-provider="microsoft" data-area="ai" data-course="ms-ab900" data-exam="">
+    <div class="product">
+        <div class="product-header">
+            <img src="/assets/images/main/products/covers/bg-course-ms-ab900.png" class="d-block img-fluid mx-auto" />
+        </div>
+        <div class="product-logo">
+            <img src="/assets/images/main/products/logos/lg-product-microsoft-ai.png" />
+        </div>
+        <div class="product-contents">
+            <h5 class="mb-3">AB-900: Fundamentos de la administración de Microsoft 365 Copilot</h5>
+            <p>Curso introductorio sobre Microsoft 365 que muestra cómo Copilot y los agentes de IA mejoran la automatización, la colaboración y la administración del entorno.</p>
+        </div>
+        <div class="product-footer text-center">
+            <a href="/es/cursos/ab900-fundamentos-administracion-microsoft-365-copilot" target="_self" class="d-block waitmeAll">Más información</a>
+        </div>
+    </div>
+</article>
+                                <article class="col-12 col-lg-4" data-type="course" data-provider="microsoft" data-area="ai" data-course="ms-ab730" data-exam="">
+    <div class="product">
+        <div class="product-header">
+            <img src="/assets/images/main/products/covers/bg-course-ms-ab730.png" class="d-block img-fluid mx-auto" />
+        </div>
+        <div class="product-logo">
+            <img src="/assets/images/main/products/logos/lg-product-microsoft-ai.png" />
+        </div>
+        <div class="product-contents">
+            <h5 class="mb-3">AB-730: Mejora tus procesos y flujos de trabajo con IA Generativa y Microsoft Copilot</h5>
+            <p>Aprovecha la IA generativa para trabajar de forma más ágil, tomar decisiones con mayor criterio y obtener mejores resultados en tu día a día profesional.</p>
+        </div>
+        <div class="product-footer text-center">
+            <a href="/es/cursos/ab730-mejora-procesos-flujos-trabajo-ia-generativa-microsoft-copilot" target="_self" class="d-block waitmeAll">Más información</a>
+        </div>
+    </div>
+</article>
+                                <article class="col-12 col-lg-4" data-type="course" data-provider="microsoft" data-area="ai" data-course="ms-ab731" data-exam="">
+    <div class="product">
+        <div class="product-header">
+            <img src="/assets/images/main/products/covers/bg-course-ms-ab731.png" class="d-block img-fluid mx-auto" />
+        </div>
+        <div class="product-logo">
+            <img src="/assets/images/main/products/logos/lg-product-microsoft-ai.png" />
+        </div>
+        <div class="product-contents">
+            <h5 class="mb-3">AB-731: Lidera la implementación de IA generativa en tu organización</h5>
+            <p>Aprende a evaluar la preparación de tu empresa, alinear las inversiones con los objetivos corporativos y planificar iniciativas de IA que generen impacto sostenible.</p>
+        </div>
+        <div class="product-footer text-center">
+            <a href="/es/cursos/ab731-lidera-implementacion-genai-organizacion" target="_self" class="d-block waitmeAll">Más información</a>
+        </div>
+    </div>
+</article>
+                                <article class="col-12 col-lg-4" data-type="exam" data-provider="its" data-area="ai" data-course="its-inf307" data-exam="its-inf307">
+    <div class="product">
+        <div class="product-header">
+            <img src="/assets/images/main/products/covers/bg-exam-its-307.png" class="d-block img-fluid mx-auto" />
+        </div>
+        <div class="product-logo">
+            <img src="/assets/images/main/products/logos/lg-product-its.png" />
+        </div>
+        <div class="product-contents">
+            <h5 class="mb-3">IT Specialist - INF-307: Inteligencia Artificial</h5>
+            <p>Descubre el potencial de la inteligencia artificial con este curso oficial. Aprende IA desde cero, domina el aprendizaje automático y prepárate para certificarte como IT Specialist.</p>
+        </div>
+        <div class="product-footer text-center">
+            <a href="https://www.pue.es/certificacion/inscripcion/it-specialist/inf-307-artifical-intelligence" target="_blank" class="d-block">Más información</a>
+        </div>
+    </div>
+</article>
+                                <article class="col-12 col-lg-4" data-type="exam" data-provider="its" data-area="datasc" data-course="its-inf202" data-exam="its-inf202">
+    <div class="product">
+        <div class="product-header">
+            <img src="/assets/images/main/products/covers/bg-exam-its-202.png" class="d-block img-fluid mx-auto" />
+        </div>
+        <div class="product-logo">
+            <img src="/assets/images/main/products/logos/lg-product-its.png" />
+        </div>
+        <div class="product-contents">
+            <h5 class="mb-3">IT Specialist - INF-202: Análisis de datos</h5>
+            <p>Perfecciona tus habilidades en el manipulado, análisis y comunicación de datos con este curso, aprendiendo a organizar, interpretar y presentar información de manera clara y efectiva para tomar decisiones más acertadas.</p>
+        </div>
+        <div class="product-footer text-center">
+            <a href="https://www.pue.es/certificacion/inscripcion/it-specialist/inf-202-data-analytics" target="_blank" class="d-block">Más información</a>
+        </div>
+    </div>
+</article>
+                                <article class="col-12 col-lg-4" data-type="exam" data-provider="its" data-area="datasc" data-course="its-inf201" data-exam="its-inf201">
+    <div class="product">
+        <div class="product-header">
+            <img src="/assets/images/main/products/covers/bg-exam-its-201.png" class="d-block img-fluid mx-auto" />
+        </div>
+        <div class="product-logo">
+            <img src="/assets/images/main/products/logos/lg-product-its.png" />
+        </div>
+        <div class="product-contents">
+            <h5 class="mb-3">IT Specialist - INF-201: Bases de datos</h5>
+            <p>Aprende a diseñar, implementar y gestionar bases de datos relacionales. Este curso oficial te proporciona los conocimientos esenciales para comprender la arquitectura de bases de datos, lenguajes SQL y técnicas de administración de datos.</p>
+        </div>
+        <div class="product-footer text-center">
+            <a href="https://www.pue.es/certificacion/inscripcion/it-specialist/inf-201-en-databases" target="_blank" class="d-block">Más información</a>
+        </div>
+    </div>
+</article>
+                                <article class="col-12 col-lg-4" data-type="exam" data-provider="ccs-genai" data-area="ai" data-course="ccs-genai" data-exam="ccs-genai">
+    <div class="product">
+        <div class="product-header">
+            <img src="/assets/images/main/products/covers/bg-exam-ccs-genai.png" class="d-block img-fluid mx-auto" />
+        </div>
+        <div class="product-logo">
+            <img src="/assets/images/main/products/logos/lg-product-ccs-genai.png" />
+        </div>
+        <div class="product-contents">
+            <h5 class="mb-3">Fundamentos de la Inteligencia Artificial Generativa</h5>
+            <p>Refuerza tu perfil con una base sólida en IA generativa, comprendiendo cómo funcionan estos modelos y cómo aplicarlos de forma práctica, ética y orientada al impacto profesional.</p>
+        </div>
+        <div class="product-footer text-center">
+            <a href="https://www.pue.es/certificacion/inscripcion/communication-skills-business/ccs-critical-career-skills-generative-ai-foundations" target="_blank" class="d-block">Más información</a>
+        </div>
+    </div>
+</article>
+                                <article class="col-12 col-lg-4" data-type="exam" data-provider="microsoft" data-area="ai" data-course="ms-ai900" data-exam="ms-ai900">
+    <div class="product">
+        <div class="product-header">
+            <img src="/assets/images/main/products/covers/bg-exam-ms-ai900.png" class="d-block img-fluid mx-auto" />
+        </div>
+        <div class="product-logo">
+            <img src="/assets/images/main/products/logos/lg-product-microsoft-ai.png" />
+        </div>
+        <div class="product-contents">
+            <h5 class="mb-3">AI-900: Microsoft Azure AI Fundamentals</h5>
+            <p>Valida tus conocimientos esenciales en inteligencia artificial y machine learning, entendiendo los principales servicios de Azure AI y su aplicación en escenarios reales de negocio.</p>
+        </div>
+        <div class="product-footer text-center">
+            <a href="https://www.pue.es/certificacion/inscripcion/microsoft/ai-900-microsoft-azure-ai-fundamentals" target="_blank" class="d-block">Más información</a>
+        </div>
+    </div>
+</article>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="sc-aiskills-4edu-home-prtests" data-section="practice-tests">
+        <div class="content">
+            <div class="row mb-5">
+                <div class="col-12 mb-4 animated invisible delay-1" data-animation="fadeInUp">
+                    <h6 class="text-center">Practice tests</h6>
+                    <h4 class="text-center">Practica con simulaciones reales del examen</h4>
+                </div>
+                <div class="col-12 px-lg-9 animated invisible delay-2" data-animation="fadeInUp">
+                    <p class="text-center">Estas herramientas de evaluación y preparación de exámenes están desarrolladas por GMetrix, proveedor global especializado en Practice Tests para las certificaciones oficiales de Certiport – Pearson VUE.</p>
+                </div>
+            </div>
+            <div class="row mb-5 animated invisible delay-3" data-animation="fadeInUp">
+                <div class="col-12 d-none d-md-block">
+                    <img src="/assets/images/main/sections/sc-prtests-figure-text.png" class="d-block img-fluid mx-auto" />
+                </div>
+                <div class="col-12 d-block d-md-none animated invisible delay-3" data-animation="fadeInUp">
+                    <img src="/assets/images/main/sections/sc-prtests-figure.png" class="d-block img-fluid mx-auto mb-4" />
+                </div>
+                <div class="col-12 d-block d-md-none">
+                    <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2">
+                        <div class="pill">
+                            <span class="pill-header">Simulación del examen</span>
+                            <span class="pill-contents">Practica en un entorno similar al examen oficial y familiarízate con su formato.</span>
+                        </div>
+                        <div class="pill">
+                            <span class="pill-header">Feedback inmediato</span>
+                            <span class="pill-contents">Obtén resultados al instante con estadísticas e informes de progreso.</span>
+                        </div>
+                        <div class="pill">
+                            <span class="pill-header">Flexibilidad total</span>
+                            <span class="pill-contents">Accede desde donde quieras y practica a tu ritmo, tantas veces como necesites.</span>
+                        </div>
+                        <div class="pill">
+                            <span class="pill-header">Listo para aprobar</span>
+                            <span class="pill-contents">Llega al examen con la preparación y confianza que necesitas para aprobar con garantías.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row animated invisible delay-3" data-animation="fadeInUp">
+                <div class="col-12 mb-4">
+                    <h5 class="text-center">Elige entre dos modalidades</h5>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2">
+                        <div class="pill">
+                            <span class="pill-header">Training</span>
+                            <span class="pill-contents">Con asistencia, explicaciones y sin límite de tiempo.</span>
+                        </div>
+                        <div class="pill">
+                            <span class="pill-header">Testing</span>
+                            <span class="pill-contents">Sin ayuda y con tiempo limitado, igual que en el examen.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="sc-aiskills-4edu-home-stats" data-section="stats">
+        <div class="content">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="stat animated invisible delay-1" data-animation="fadeInUp">
+                        <span class="stat-value">57 %</span>
+                        <span class="stat-label">de la actividad laboral actual es técnicamente automatizable mediante IA</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="stat animated invisible delay-2" data-animation="fadeInUp">
+                        <span class="stat-value">40 %</span>
+                        <span class="stat-label">de las competencias clave cambiarán radicalmente antes de 2030 debido al impacto de la IA</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="stat animated invisible delay-3" data-animation="fadeInUp">
+                        <span class="stat-value">x 6</span>
+                        <span class="stat-label">aumento de ofertas en LinkedIn que solicitan competencias en IA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+            <section id="sc-aiskills-4edu-home-banner" data-section="banner">
+            <div class="content animated invisible delay-1" data-animation="fadeInUp">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="pill p-4">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-lg-6 order-2 order-lg-1 px-lg-6">
+                                    <h2 class="mb-4">Domina las habilidades clave para la era de la IA</h2>
+                                    <p class="mb-4">Formación oficial, Practice Tests y certificaciones que validan tus habilidades.</p>
+                                    <a href="https://itskills.pue.es/dashboard?source=805d21a1-f95b-430b-81af-c9faf701ea53" target="_blank" class="button">Acceder</a>
+                                </div>
+                                <div class="col-12 col-lg-6 order-1 order-lg-2">
+                                    <img src="/assets/images/main/sections/sc-block-banner.png" class="img-fluid mx-auto d-block mb-4 mb-lg-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+                
+                <section id="sc-aiskills-4edu-contact">
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2">
+                                    <h5>¿Tienes alguna duda?</h5>
+                                    <p class="pl-0 pl-md-4">Envíanos un mail a <ins>aiskillsforeducation@pue.es</ins></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                
+                <section id="sc-aiskills-4edu-footer">
+
+                    
+                    <footer id="sc-aiskills-4edu-footer-contact">
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <img src="/assets/images/main/logos/host/lg-pue-academy-footer.png" class="img-fluid mx-auto d-block float-xl-left pt-2" title="PUE Academy" />
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <table class="mt-3 mt-xl-0 mx-auto float-xl-right">
+                                        <tr>
+                                            <td>
+                                                <a target="_blank" href="https://www.youtube.com/@PUEAcademy">
+                                                    <img src="/assets/images/main/logos/social/lg-social-youtube.png" class="img-fluid mx-auto d-block px-3" />
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a target="_blank" href="https://www.linkedin.com/company/pue-academy/">
+                                                    <img src="/assets/images/main/logos/social/lg-social-linkedin.png" class="img-fluid mx-auto d-block px-3" />
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a target="_blank" href="https://www.pue.es/pue-academy">
+                                                    <img src="/assets/images/main/logos/social/lg-social-website.png" class="img-fluid mx-auto d-block px-3" />
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a target="_blank" href="https://x.com/pue_academy">
+                                                    <img src="/assets/images/main/logos/social/lg-social-twitter.png" class="img-fluid mx-auto d-block px-3" />
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+
+                    
+                    <footer id="sc-aiskills-4edu-footer-disclaimers">
+                        <div class="content">
+                            <div class="row">
+                                
+                                <div class="col-12 col-xl-6 text-center text-xl-left">
+                                    <span>@2026 PUE Academy. Todos los derechos reservados</span>
+                                </div>
+
+                                
+                                <div class="col-12 col-xl-6 text-center text-xl-right pr-md-4">
+                                    <a href="https://www.pue.es/politica-de-privacidad" target="_blank">Política de privacidad</a>
+                                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                                    <a href="https://www.pue.es/politica-de-cookies" target="_blank">Política de cookies</a>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+
+                </section>
+
+                
+                <section id="sc-aiskills-4edu-back-to-top">
+                    <a href="#0" class="cd-top">Top</a>
+                </section>
+
+            </main>
+
+        </div>
+
+        
+        <script src="/assets/js/core/dashmix.core.min.js"></script>
+        <script src="/assets/js/core/dashmix.app.min.js"></script>
+        
+        <script src="/assets/js/plugins/jwaitme/jwaitme.min.js"></script>
+        <script src="/assets/js/plugins/mmenujs/mmenu.js"></script>
+        <script src="/assets/js/plugins/mmenujs/mmenu.polyfills.js"></script>
+        
+        <script src="/assets/js/pages/main/layout/home/page-2.0.0.js"></script>
+        
+    <script src="/assets/js/plugins/jquery-validation/jquery.validate.min.js"></script>
+    <script src="/assets/js/plugins/select2/js/select2.full.min.js"></script>
+    <script src="/assets/js/plugins/ion-rangeslider/ion.rangeSlider.min.js"></script>
+    <script src="/assets/js/plugins/slick-carousel/slick.min.js"></script>
+    <script src="/assets/js/pages/main/views/home/page-1.5.0.js"></script>
+
+
+        
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CBN4KB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        
+        
+
+    </body>
+
+</html>	

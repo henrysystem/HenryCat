@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# FAISS Vector Store
+*.faiss
+*.index
+
+# Temporary files
+temp_extracted/
+*.tmp
+*.temp
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# AI Session State (keep template, ignore active state)
+SESSION_STATE.md
+
+# Environment variables
+.env
+.env.local
+
+# Data files (optional - uncomment if you want to exclude data)
+# data/
+# assets/

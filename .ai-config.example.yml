@@ -1,0 +1,37 @@
+cleanup:
+  include:
+    - "~*"
+    - "*.tmp"
+    - "*.temp"
+    - "*.dmp"
+    - "*.mdmp"
+    - "minidump*"
+    - "SCRIPT_*.LOG"
+    - "SCRIPT_*.log"
+  exclude:
+    - ".git/**"
+    - "deploy/**"
+    - "**/*.sql"
+  optional_requires_confirm:
+    - "*.bak"
+
+archive:
+  internal_root: "deploy"
+  use_branch_as_change_name: true
+  include:
+    - "*.sql"
+    - "*.dml"
+    - "CAMBIOS*.txt"
+    - "CHANGELOG*.txt"
+  exclude:
+    - "deploy/**"
+    - ".git/**"
+  external_backup_root: "D:/Pintulac/06_RESPALDOS/Funcionalidades/Respaldos-Funcionalidades/Respaldos"
+
+model_routing:
+  enabled: true
+  policy:
+    analysis: ["gemini", "opus", "codex"]
+    coding: ["opus", "codex", "gemini"]
+    bugfix: ["codex", "opus", "gemini"]
+  on_limit: "fallback"
